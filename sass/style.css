@@ -30,7 +30,7 @@ nav {
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
   font-size: larger;
-  margin: 20px 15px;
+  padding: 15px 15px;
   -ms-flex-line-pack: center;
       align-content: center;
 }
@@ -59,6 +59,33 @@ nav .right {
 nav .right a {
   color: #787878;
   text-decoration: none;
+}
+
+footer .top {
+  background-color: #0F3411;
+  color: #FFFFFF;
+  padding: 40px 20px;
+}
+
+footer .top p {
+  font-size: small;
+}
+
+footer .top h5 {
+  color: #108d15;
+}
+
+footer .top div.col-2, footer .top div.col {
+  font-size: small;
+}
+
+footer .top div.col-2 a, footer .top div.col a {
+  color: #FFFFFF;
+}
+
+footer .bottom {
+  background: #108D15;
+  color: #FFFFFF;
 }
 
 #about-us div > img {

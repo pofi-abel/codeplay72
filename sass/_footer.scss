@@ -1,0 +1,28 @@
+footer {
+    .top {
+        background-color: $green-dark;
+        color: $white;
+        padding: 40px 20px;
+
+        p {
+            font-size: small;
+        }
+
+        h5 {
+            color: $green-shade;
+        }
+
+        & div.col-2, div.col {
+            font-size: small;
+
+            a {
+                color: $white;
+            }
+        }
+    }
+
+    .bottom {
+        background: $green-light;
+        color: $white;
+    }
+}

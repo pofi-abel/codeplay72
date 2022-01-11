@@ -2,7 +2,7 @@ nav {
   display: grid;
   grid-template-columns: auto auto;
   font-size: larger;
-  margin: 20px 15px;
+  padding: 15px 15px;
   align-content: center;
 
   .left {
@@ -10,7 +10,7 @@ nav {
     font-weight: 900;
 
     a {
-      color: #108d15 !important;
+      color: $green-shade !important;
       text-decoration: none;
     }
   }
