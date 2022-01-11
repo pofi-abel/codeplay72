@@ -1,0 +1,9 @@
+nav{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    .right{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
