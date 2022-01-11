@@ -1,9 +1,29 @@
-nav{
-    display: grid;
-    grid-template-columns: auto auto;
+nav {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: larger;
+  margin: 20px 15px;
+  align-content: center;
 
-    .right{
-        display: grid;
-        grid-template-columns: auto auto auto auto;
+  .left {
+    font-size: 30px;
+    font-weight: 900;
+
+    a {
+      color: #108d15 !important;
+      text-decoration: none;
     }
+  }
+
+  .right {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-content: center;
+
+    a {
+      color: $gray-light;
+      text-decoration: none;
+    }
+  }
 }

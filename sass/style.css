@@ -7,6 +7,10 @@ button {
   color: #575757;
 }
 
+button:hover {
+  color: #cbab05;
+}
+
 .button {
   padding: .6rem;
   border-radius: .4rem;
@@ -16,11 +20,29 @@ button {
   color: #575757;
 }
 
+.button:hover {
+  background-color: #cbab05;
+}
+
 nav {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
+  font-size: larger;
+  margin: 20px 15px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+nav .left {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+nav .left a {
+  color: #108d15 !important;
+  text-decoration: none;
 }
 
 nav .right {
@@ -28,9 +50,22 @@ nav .right {
   display: grid;
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+nav .right a {
+  color: #787878;
+  text-decoration: none;
 }
 
 body {
   font-family: 'Mulish', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

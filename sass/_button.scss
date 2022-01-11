@@ -1,17 +1,25 @@
 button{
     padding: .6rem;
     border-radius: .4rem;
-    background-color:#DAB805;
+    background-color:$yellow-shade;
     font-weight: 500;
-    color: #575757;
+    color: $gray-dark;
+
+    &:hover{
+        color: darken($yellow-shade, 3);
+    }
 }
 
 .button {
-    // border: 1px solid black;
     padding: .6rem;
     border-radius: .4rem;
     text-decoration: none;
-    background-color:#DAB805;
+    background-color:$yellow-shade;
     font-weight: 500;
-    color: #575757;
+    color: $gray-dark;
+
+     &:hover{
+        background-color: darken($yellow-shade, 3);
+    }
 }
+
