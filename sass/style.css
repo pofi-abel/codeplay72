@@ -1,14 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600&display=swap");
+.green-light {
+  color: #108D15;
+}
+
 button {
   padding: .6rem;
-  border-radius: .4rem;
+  border-radius: .4rem !important;
+  text-decoration: none;
   background-color: #DAB805;
   font-weight: 500;
+  border: none;
   color: #575757;
 }
 
 button:hover {
-  color: #cbab05;
+  background-color: #cbab05;
 }
 
 .button {

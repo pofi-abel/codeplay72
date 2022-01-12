@@ -1,12 +1,14 @@
-button{
+button {
     padding: .6rem;
-    border-radius: .4rem;
+    border-radius: .4rem !important;
+    text-decoration: none;
     background-color:$yellow-shade;
     font-weight: 500;
+    border: none;
     color: $gray-dark;
-
+ 
     &:hover{
-        color: darken($yellow-shade, 3);
+        background-color: darken($yellow-shade, 3);
     }
 }
 
