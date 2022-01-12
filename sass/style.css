@@ -1,71 +1,140 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600&display=swap");
 button {
-  padding: .6rem;
-  border-radius: .4rem;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
   background-color: #DAB805;
   font-weight: 500;
   color: #575757;
 }
-
 button:hover {
   color: #cbab05;
 }
 
 .button {
-  padding: .6rem;
-  border-radius: .4rem;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
   text-decoration: none;
   background-color: #DAB805;
   font-weight: 500;
   color: #575757;
 }
-
 .button:hover {
   background-color: #cbab05;
 }
 
 nav {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
   font-size: larger;
   margin: 20px 15px;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
 }
-
 nav .left {
   font-size: 30px;
   font-weight: 900;
 }
-
 nav .left a {
   color: #108d15 !important;
   text-decoration: none;
 }
-
 nav .right {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  align-content: center;
 }
-
 nav .right a {
   color: #787878;
   text-decoration: none;
 }
 
+.jumbo {
+  background-color: whitesmoke;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.jumbo {
+  padding: 10em 4em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.left-col {
+  margin: 3em 3em 0 5em;
+}
+
+.d-heading {
+  font-size: 3em;
+  width: 90%;
+  color: lightslategray;
+}
+
+.para {
+  font-size: 1.5em;
+  width: 50%;
+}
+
+span {
+  color: green;
+}
+
+img.tech-kids {
+  width: 100%;
+  height: 100%;
+  margin-right: 5em;
+}
+
+.deco1 {
+  width: 50px;
+  height: 50px;
+  background-color: orangered;
+  border-radius: 50%;
+  padding: 30px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  border-style: double;
+  border-color: red;
+  color: white;
+  text-align: center;
+}
+
+.deco2 {
+  width: 70px;
+  height: 50px;
+  background-color: greenyellow;
+  border-radius: 30px;
+  padding: 10px;
+  margin-left: 400px;
+  font-size: 1.2em;
+  border-style: dotted;
+  border-color: black;
+  color: white;
+  text-align: center;
+}
+
+.deco3 {
+  width: 70px;
+  height: 50px;
+  background-color: orangered;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 1.2em;
+  border-style: dotted;
+  border-color: red;
+  color: white;
+  text-align: center;
+}
+
 body {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 a {
   text-decoration: none;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
