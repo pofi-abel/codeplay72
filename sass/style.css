@@ -1,13 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600&display=swap");
+.green-light {
+  color: #108D15;
+}
+
 button {
   padding: 0.6rem;
-  border-radius: 0.4rem;
+  border-radius: 0.4rem !important;
+  text-decoration: none;
   background-color: #DAB805;
   font-weight: 500;
+  border: none;
   color: #575757;
 }
 button:hover {
-  color: #cbab05;
+  background-color: #cbab05;
 }
 
 .button {
@@ -26,7 +32,7 @@ nav {
   display: grid;
   grid-template-columns: auto auto;
   font-size: larger;
-  margin: 20px 15px;
+  padding: 15px 15px;
   align-content: center;
 }
 nav .left {
@@ -91,11 +97,11 @@ img.tech-kids {
 }
 
 .deco1 {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   background-color: orangered;
   border-radius: 50%;
-  padding: 30px;
+  padding: 50px;
   margin-bottom: 10px;
   font-size: 1.2em;
   border-style: double;
@@ -129,6 +135,32 @@ img.tech-kids {
   border-color: red;
   color: white;
   text-align: center;
+}
+
+footer .top {
+  background-color: #0F3411;
+  color: #FFFFFF;
+  padding: 40px 20px;
+}
+footer .top p {
+  font-size: small;
+}
+footer .top h5 {
+  color: #108d15;
+}
+footer .top div.col-2, footer .top div.col {
+  font-size: small;
+}
+footer .top div.col-2 a, footer .top div.col a {
+  color: #FFFFFF;
+}
+footer .bottom {
+  background: #108D15;
+  color: #FFFFFF;
+}
+
+#about-us div > img {
+  width: 60%;
 }
 
 body {
