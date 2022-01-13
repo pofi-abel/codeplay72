@@ -11,6 +11,8 @@ button {
   font-weight: 500;
   border: none;
   color: #575757;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 button:hover {
@@ -24,10 +26,13 @@ button:hover {
   background-color: #DAB805;
   font-weight: 500;
   color: #575757;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .button:hover {
   background-color: #cbab05;
+  color: #575757;
 }
 
 nav {

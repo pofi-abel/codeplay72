@@ -6,6 +6,7 @@ button {
     font-weight: 500;
     border: none;
     color: $gray-dark;
+    transition-duration: 0.4s;
  
     &:hover{
         background-color: darken($yellow-shade, 3);
@@ -19,9 +20,11 @@ button {
     background-color:$yellow-shade;
     font-weight: 500;
     color: $gray-dark;
+    transition-duration: 0.4s;
 
      &:hover{
         background-color: darken($yellow-shade, 3);
+        color: $gray-dark;
     }
 }
 
