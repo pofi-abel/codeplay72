@@ -1,0 +1,17 @@
+section.jumbo {
+    background-color: whitesmoke;
+    padding: 110px;
+    margin-bottom: 20vh !important;
+
+    div > img {
+        width: 110%;
+    }
+
+    h1 > span {
+        color: $green-light
+    }
+
+    .action {
+        font-size: larger;
+    }
+}

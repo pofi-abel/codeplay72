@@ -24,6 +24,11 @@ nav {
     a {
       color: $gray-light;
       text-decoration: none;
+      transition-duration: 0.4s;
+
+      &:not(.button):hover {
+        color: lighten($gray-light, 20);
+      }
     }
   }
 }

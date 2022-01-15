@@ -70,91 +70,12 @@ nav .right {
 nav .right a {
   color: #787878;
   text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
-.jumbo {
-  background-color: whitesmoke;
-}
-
-.container {
-  margin: 0 auto;
-}
-
-.jumbo {
-  padding: 10em 4em;
-}
-
-.container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
-}
-
-.left-col {
-  margin: 3em 3em 0 5em;
-}
-
-.d-heading {
-  font-size: 3em;
-  width: 90%;
-  color: lightslategray;
-}
-
-.para {
-  font-size: 1.5em;
-  width: 50%;
-}
-
-span {
-  color: green;
-}
-
-img.tech-kids {
-  width: 100%;
-  height: 100%;
-  margin-right: 5em;
-}
-
-.deco1 {
-  width: 100px;
-  height: 100px;
-  background-color: orangered;
-  border-radius: 50%;
-  padding: 50px;
-  margin-bottom: 10px;
-  font-size: 1.2em;
-  border-style: double;
-  border-color: red;
-  color: white;
-  text-align: center;
-}
-
-.deco2 {
-  width: 70px;
-  height: 50px;
-  background-color: greenyellow;
-  border-radius: 30px;
-  padding: 10px;
-  margin-left: 400px;
-  font-size: 1.2em;
-  border-style: dotted;
-  border-color: black;
-  color: white;
-  text-align: center;
-}
-
-.deco3 {
-  width: 70px;
-  height: 50px;
-  background-color: orangered;
-  border-radius: 30px;
-  padding: 10px;
-  font-size: 1.2em;
-  border-style: dotted;
-  border-color: red;
-  color: white;
-  text-align: center;
+nav .right a:not(.button):hover {
+  color: #ababab;
 }
 
 footer .top {
@@ -179,6 +100,13 @@ footer .top div.col {
 footer .top div.col-2 a,
 footer .top div.col a {
   color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer .top div.col-2 a:hover,
+footer .top div.col a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 footer .bottom, footer span {
@@ -187,8 +115,34 @@ footer .bottom, footer span {
   font-size: small;
 }
 
+section.jumbo {
+  background-color: whitesmoke;
+  padding: 110px;
+  margin-bottom: 20vh !important;
+}
+
+section.jumbo div > img {
+  width: 110%;
+}
+
+section.jumbo h1 > span {
+  color: #108D15;
+}
+
+section.jumbo .action {
+  font-size: larger;
+}
+
+section.about-us {
+  margin-bottom: 20vh !important;
+}
+
 section.about-us div > img {
   width: 60%;
+}
+
+section.challenges {
+  margin-bottom: 20vh !important;
 }
 
 section.challenges .border {
@@ -202,6 +156,42 @@ section.challenges h4, section.challenges p {
 
 section.challenges div > p {
   font-size: 90%;
+}
+
+section.contact-us {
+  margin-bottom: 20vh !important;
+}
+
+section.contact-us div > img {
+  width: 130px;
+}
+
+section.contact-us .contact-dial {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+section.contact-us div > input[type='text'],
+section.contact-us div > input[type='email'], section.contact-us div > textarea {
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+}
+
+section.contact-us textarea:focus,
+section.contact-us input:focus {
+  outline: none;
+}
+
+section.contact-us div > button {
+  width: 100%;
+}
+
+section.solution {
+  margin-bottom: 20vh !important;
 }
 
 section.solution div > img {

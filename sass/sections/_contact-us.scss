@@ -1,0 +1,29 @@
+section.contact-us {
+  margin-bottom: 20vh !important;
+
+  div > img {
+    width: 130px;
+  }
+
+  .contact-dial {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  div > input[type='text'],
+  div > input[type='email'], div > textarea {
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+  }
+
+  textarea:focus,
+  input:focus {
+    outline: none;
+  }
+
+  div > button {
+      width: 100%;
+  }
+}
