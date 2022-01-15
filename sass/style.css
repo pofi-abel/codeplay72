@@ -72,8 +72,93 @@ nav .right a {
   text-decoration: none;
 }
 
+.jumbo {
+  background-color: whitesmoke;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.jumbo {
+  padding: 10em 4em;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.left-col {
+  margin: 3em 3em 0 5em;
+}
+
+.d-heading {
+  font-size: 3em;
+  width: 90%;
+  color: lightslategray;
+}
+
+.para {
+  font-size: 1.5em;
+  width: 50%;
+}
+
+span {
+  color: green;
+}
+
+img.tech-kids {
+  width: 100%;
+  height: 100%;
+  margin-right: 5em;
+}
+
+.deco1 {
+  width: 100px;
+  height: 100px;
+  background-color: orangered;
+  border-radius: 50%;
+  padding: 50px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  border-style: double;
+  border-color: red;
+  color: white;
+  text-align: center;
+}
+
+.deco2 {
+  width: 70px;
+  height: 50px;
+  background-color: greenyellow;
+  border-radius: 30px;
+  padding: 10px;
+  margin-left: 400px;
+  font-size: 1.2em;
+  border-style: dotted;
+  border-color: black;
+  color: white;
+  text-align: center;
+}
+
+.deco3 {
+  width: 70px;
+  height: 50px;
+  background-color: orangered;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 1.2em;
+  border-style: dotted;
+  border-color: red;
+  color: white;
+  text-align: center;
+}
+
 footer .top {
-  background-color: #0F3411;
+  background-color: #072009;
   color: #FFFFFF;
   padding: 40px 20px;
 }
@@ -86,21 +171,28 @@ footer .top h5 {
   color: #108d15;
 }
 
-footer .top div.col-2, footer .top div.col {
+footer .top div.col-2,
+footer .top div.col {
   font-size: small;
 }
 
-footer .top div.col-2 a, footer .top div.col a {
+footer .top div.col-2 a,
+footer .top div.col a {
   color: #FFFFFF;
 }
 
-footer .bottom {
-  background: #108D15;
+footer .bottom, footer span {
+  background: #072009;
   color: #FFFFFF;
+  font-size: small;
 }
 
 #about-us div > img {
   width: 60%;
+}
+
+section.solution div > img {
+  width: 10%;
 }
 
 body {
@@ -109,5 +201,9 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.header-img {
+  width: 5%;
 }
 /*# sourceMappingURL=style.css.map */

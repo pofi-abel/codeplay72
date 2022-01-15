@@ -2,6 +2,7 @@
 @import '_colors';
 @import './button';
 @import './nav';
+@import './jumbo';
 @import './footer';
 @import './sections/about-us';
 @import './sections/challenges';
@@ -9,10 +10,15 @@
 @import './sections/solution';
 @import './sections/testimonies';
 
+
 body{
     font-family: 'Mulish', sans-serif;
 }
 
 a {
     text-decoration: none;
+}
+
+.header-img {
+    width: 5%;
 }
