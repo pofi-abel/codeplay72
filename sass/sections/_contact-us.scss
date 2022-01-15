@@ -1,5 +1,6 @@
 section.contact-us {
-  margin-bottom: 20vh !important;
+  margin-bottom: 15vh !important;
+  color: $gray-dark;
 
   div > img {
     width: 130px;
@@ -16,6 +17,7 @@ section.contact-us {
     border-radius: 20px;
     border: none;
     width: 100%;
+    color: $gray-dark;
   }
 
   textarea:focus,
@@ -25,5 +27,6 @@ section.contact-us {
 
   div > button {
       width: 100%;
+      border-radius: 20px !important;
   }
 }

@@ -80,7 +80,7 @@ nav .right a:not(.button):hover {
 
 footer .top {
   background-color: #072009;
-  color: #FFFFFF;
+  color: #787878;
   padding: 40px 20px;
 }
 
@@ -99,7 +99,7 @@ footer .top div.col {
 
 footer .top div.col-2 a,
 footer .top div.col a {
-  color: #FFFFFF;
+  color: #787878;
   text-decoration: none;
 }
 
@@ -109,10 +109,59 @@ footer .top div.col a:hover {
           text-decoration-line: underline;
 }
 
-footer .bottom, footer span {
+footer .bottom,
+footer span {
   background: #072009;
-  color: #FFFFFF;
+  color: #575757;
   font-size: small;
+}
+
+footer .subscribe-sec div > form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  font-size: smaller;
+}
+
+footer .subscribe-sec div > form input {
+  background-color: #072009;
+  border-color: #DAB805;
+  border-radius: 10px !important;
+  padding: 10px 20px;
+  color: #787878;
+}
+
+footer .subscribe-sec div > form input:focus {
+  outline: none;
+}
+
+footer .subscribe-sec div > form button {
+  border-radius: 10px !important;
+}
+
+footer .subscribe-sec div.socials {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30px 30px;
+      grid-template-columns: 30px 30px;
+  grid-column-gap: 20px;
+  margin: 10px 0px;
+}
+
+footer .subscribe-sec div.t-p {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50px 50px;
+      grid-template-columns: 50px 50px;
+  grid-column-gap: 20px;
+  margin: 10px 0px;
+  font-size: small;
+}
+
+footer .subscribe-sec div.t-p a {
+  color: #DAB805;
 }
 
 section.jumbo {
@@ -159,7 +208,8 @@ section.challenges div > p {
 }
 
 section.contact-us {
-  margin-bottom: 20vh !important;
+  margin-bottom: 15vh !important;
+  color: #575757;
 }
 
 section.contact-us div > img {
@@ -179,6 +229,7 @@ section.contact-us div > input[type='email'], section.contact-us div > textarea 
   border-radius: 20px;
   border: none;
   width: 100%;
+  color: #575757;
 }
 
 section.contact-us textarea:focus,
@@ -188,6 +239,7 @@ section.contact-us input:focus {
 
 section.contact-us div > button {
   width: 100%;
+  border-radius: 20px !important;
 }
 
 section.solution {

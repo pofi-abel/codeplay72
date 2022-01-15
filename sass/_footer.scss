@@ -1,7 +1,7 @@
 footer {
   .top {
     background-color: $green-dark;
-    color: $white;
+    color: $gray-light;
     padding: 40px 20px;
 
     p {
@@ -17,7 +17,7 @@ footer {
       font-size: small;
 
       a {
-        color: $white;
+        color: $gray-light;
         text-decoration: none;
 
         &:hover {
@@ -27,9 +27,54 @@ footer {
     }
   }
 
-  .bottom, span {
+  .bottom,
+  span {
     background: $green-dark;
-    color: $white;
+    color: $gray-dark;
     font-size: small;
+  }
+
+  .subscribe-sec {
+    div > form {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-column-gap: 20px;
+      font-size: smaller;
+
+      input {
+        background-color: $green-dark;
+        border-color: $yellow-shade;
+        border-radius: 10px !important;
+        padding: 10px 20px;
+        color: $gray-light;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      button {
+        border-radius: 10px !important;
+      }
+    }
+
+    div.socials {
+      display: grid;
+      grid-template-columns: 30px 30px;
+      grid-column-gap: 20px;
+      margin: 10px 0px;
+    }
+
+    div.t-p {
+      display: grid;
+      grid-template-columns: 50px 50px;
+      grid-column-gap: 20px;
+      margin: 10px 0px;
+      font-size: small;
+      a {
+        color: $yellow-shade;
+
+      }
+    }
   }
 }
