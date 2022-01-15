@@ -187,7 +187,7 @@ footer .bottom, footer span {
   font-size: small;
 }
 
-#about-us div > img {
+section.about-us div > img {
   width: 60%;
 }
 
