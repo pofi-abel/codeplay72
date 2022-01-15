@@ -1,0 +1,14 @@
+section.challenges {
+    .border {
+        border-color: $yellow-shade !important;
+        border-radius: 20px;
+    }
+
+    h4, p {
+        color: $gray-dark;
+    }
+
+    div > p {
+        font-size: 90%;
+    }
+}

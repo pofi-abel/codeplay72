@@ -191,8 +191,25 @@ footer .bottom, footer span {
   width: 60%;
 }
 
+section.challenges .border {
+  border-color: #DAB805 !important;
+  border-radius: 20px;
+}
+
+section.challenges h4, section.challenges p {
+  color: #575757;
+}
+
+section.challenges div > p {
+  font-size: 90%;
+}
+
 section.solution div > img {
   width: 10%;
+}
+
+section.solution h4, section.solution p {
+  color: #575757;
 }
 
 body {
