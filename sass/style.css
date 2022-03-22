@@ -730,7 +730,142 @@ h2 {
   font-weight: 400;
 }
 
-/* What we are */
+/* What we are ends */
+/* what we do */
+.what-we-do > h4 {
+  font-family: Mulish;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+.facilities {
+  border: 1px solid #DAB805;
+  border-radius: 25px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 45px 25px 45px 0;
+  padding: 15px;
+}
+
+.facilities > h4 {
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #575757;
+}
+
+.fac-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fac-content p {
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 15px;
+  color: #575757;
+}
+
+/* whaat we do ends */
+/* talk with us */
+.talk-with-us p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #FAFAFA;
+  background-color: #DAB805;
+  padding: 10px;
+  margin: 15px 45%;
+  border-radius: 5px;
+}
+
+/* talk with us end */
+/* our core values */
+.our-core-values {
+  margin: 45px 15px 35px 15px;
+  padding: 15px 0;
+  background: #FAFAFA;
+}
+
+.our-core-values > h4 {
+  font-family: Mulish;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.values {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.values div > span {
+  font-size: 20px;
+  color: #DAB805;
+}
+
+.values div > h5 {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #575757;
+  display: inline;
+  padding-left: 10px;
+}
+
+.values div > p {
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* our core values end */
+/* our mission */
 body {
   font-family: 'Mulish', sans-serif;
 }
