@@ -45,6 +45,73 @@ button:hover {
   font-weight: 700;
 }
 
+nav {
+  margin: 5px 0;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 10px 0 0 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+li a {
+  display: block;
+  color: #575757;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+li a:hover {
+  color: #DAB805 !important;
+  text-decoration: underline;
+}
+
+li.active > a {
+  color: #DAB805;
+}
+
+.left-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.right-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 100px;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* end navigation */
 footer .top {
   background-color: #072009;
   color: #787878;
@@ -817,7 +884,8 @@ h2 {
   background: #FAFAFA;
 }
 
-.our-core-values > h4 {
+.our-core-values > h4,
+.our-mission > h4 {
   font-family: Mulish;
   font-size: 50px;
   font-style: normal;
@@ -866,6 +934,103 @@ h2 {
 
 /* our core values end */
 /* our mission */
+.our-mission {
+  margin: 0 65px;
+}
+
+.our-mission-fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.om-img1,
+.om-img2,
+.om-img3,
+.om-img4 {
+  display: inline-block;
+}
+
+.om-img2 {
+  position: relative;
+  top: 80px;
+  right: 180px;
+}
+
+.text-block {
+  position: absolute;
+  top: 90px;
+  right: 100px;
+  text-align: center;
+}
+
+.text-block > h2 {
+  color: #108d15;
+  font-family: Mulish;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.text-block > p {
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.om-img3 {
+  position: relative;
+  right: 180px;
+}
+
+.om-img4 {
+  position: relative;
+  top: 50px;
+  right: 270px;
+}
+
+.our-mission-texts {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 25px;
+}
+
+.our-mission-texts-data {
+  margin: 45px 0;
+}
+
+.our-mission-texts-data > h4 {
+  font-family: Mulish;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #108d15;
+}
+
+.our-mission-texts-data > p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 body {
   font-family: 'Mulish', sans-serif;
 }

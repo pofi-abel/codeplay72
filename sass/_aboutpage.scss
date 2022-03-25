@@ -267,12 +267,14 @@ h2 {
 
 /* talk with us end */
 /* our core values */
-.our-core-values{
+.our-core-values {
     margin: 45px 15px 35px 15px;
     padding: 15px 0;
     background: #FAFAFA;
 }
-.our-core-values>h4 {
+
+.our-core-values>h4,
+.our-mission>h4 {
     font-family: Mulish;
     font-size: 50px;
     font-style: normal;
@@ -286,10 +288,12 @@ h2 {
     display: flex;
     flex-direction: column;
 }
+
 .values div>span {
     font-size: 20px;
     color: $yellow-shade;
 }
+
 .values div>h5 {
     font-family: Inter;
     font-size: 24px;
@@ -313,5 +317,95 @@ h2 {
     text-align: left;
 
 }
+
 /* our core values end */
 /* our mission */
+.our-mission{
+    margin: 0 65px;
+}
+.our-mission-fields {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.om-img1,
+.om-img2,
+.om-img3,
+.om-img4 {
+    display: inline-block;
+}
+
+.om-img2 {
+    position: relative;
+    top: 80px;
+    right: 180px;
+}
+
+.text-block {
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    text-align: center;
+}
+
+.text-block>h2 {
+    color: $green-shade;
+    font-family: Mulish;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.text-block>p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.om-img3 {
+    position: relative;
+    // top: 80px;
+    right: 180px;
+}
+
+.om-img4 {
+    position: relative;
+    top: 50px;
+    right: 270px;
+}
+
+.our-mission-texts {
+    flex: 1;
+    padding: 25px;
+}
+.our-mission-texts-data{
+    margin: 45px 0;
+}
+.our-mission-texts-data>h4 {
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $green-shade;
+}
+
+.our-mission-texts-data>p {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+}
