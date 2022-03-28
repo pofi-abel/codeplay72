@@ -153,7 +153,6 @@ h2 {
 
 /* our products */
 .our-products {
-    border: 1px solid;
     margin: 45px;
 }
 
@@ -170,7 +169,7 @@ h2 {
 
 .our-products-items {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 25px;
 }
 
@@ -199,3 +198,58 @@ h2 {
     line-height: 25px;
     padding: 15px 0 0 0;
 }
+
+/* our products */
+/* recent prograns */
+.recent-programs{
+    margin: 45px;
+}
+.recent-programs>h4 {
+    font-family: Mulish;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #108D15;
+}
+.recent-p-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 45px;
+}
+.r-p-iems-data{
+    display: flex;
+    flex:1;
+    justify-content: space-evenly;
+    position: relative;
+    margin: 15px 0;
+}
+.rp-items-text{
+    position: absolute;
+    bottom: 28px;
+    // left: 10px;
+}
+.recent-p-bottom-items{
+    text-align: center;
+    padding: 25px 0;
+}
+.recent-p-bottom-items h2{
+    color: $gray-dark;
+    font-weight: 700;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+.recent-p-bottom-items h2>span{
+    color: $green-shade;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Mulish';
+}
+.recent-p-bottom-items button{
+    color: $white;
+    margin: 15px 0;
+}
+
+/* recent programs */

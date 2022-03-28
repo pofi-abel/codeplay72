@@ -1113,7 +1113,6 @@ h2 {
 /* our pilot curriculum */
 /* our products */
 .our-products {
-  border: 1px solid;
   margin: 45px;
 }
 
@@ -1132,9 +1131,9 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding: 25px;
 }
 
@@ -1163,6 +1162,76 @@ h2 {
   padding: 15px 0 0 0;
 }
 
+/* our products */
+/* recent prograns */
+.recent-programs {
+  margin: 45px;
+}
+
+.recent-programs > h4 {
+  font-family: Mulish;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #108D15;
+}
+
+.recent-p-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 45px;
+}
+
+.r-p-iems-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+  margin: 15px 0;
+}
+
+.rp-items-text {
+  position: absolute;
+  bottom: 28px;
+}
+
+.recent-p-bottom-items {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.recent-p-bottom-items h2 {
+  color: #575757;
+  font-weight: 700;
+  font-family: 'Mulish';
+  font-style: normal;
+}
+
+.recent-p-bottom-items h2 > span {
+  color: #108d15;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Mulish';
+}
+
+.recent-p-bottom-items button {
+  color: #FFFFFF;
+  margin: 15px 0;
+}
+
+/* recent programs */
 body {
   font-family: 'Mulish', sans-serif;
 }
