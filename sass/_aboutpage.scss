@@ -1,0 +1,359 @@
+
+/* banner */
+.banner-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.7)), url(../img/Rectangle_244.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 676px;
+    // text-align: center;
+}
+
+.banner-img span,
+h2 {
+    color: #FAFAFA;
+}
+
+.banner-img span:nth-child(1) {
+    position: absolute;
+    left: 11.46%;
+    // right: 77.49%;
+    top: 24%;
+    // bottom: 93.46%;
+    font-weight: 700;
+    font-size: 40px;
+    background: #F29F3C;
+    box-shadow: 0px 30px 36px rgba(83, 83, 83, 0.25);
+    border-radius: 142px;
+    padding: 10px 25px;
+    margin: 45px;
+}
+
+.banner-img span:nth-child(2) {
+    position: absolute;
+    left: 71.7%;
+    // right: 17.25%;
+    top: 35%;
+    // bottom: 92.95%;
+    font-weight: 700;
+    font-size: 40px;
+    background: #CEE63F;
+    box-shadow: 0px 30px 36px rgba(83, 83, 83, 0.25);
+    border-radius: 142px;
+    padding: 10px 25px;
+    margin: 45px;
+}
+
+.banner-img h2 {
+    text-align: center;
+    position: absolute;
+    width: 535px;
+    height: 60px;
+    left: 30%;
+    top: 330px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 60px;
+}
+
+.banner-img p {
+    text-align: center;
+    position: absolute;
+    width: 535px;
+    height: 60px;
+    left: 30%;
+    top: 450px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    // line-height: 60px;
+}
+
+.banner-img span:nth-child(3) {
+    position: absolute;
+    // left: 0%;
+    right: 0%;
+    // top: 0%;
+    bottom: -100px;
+    font-weight: 700;
+    font-size: 20px;
+    background: #F29F3C;
+    box-shadow: 0px 30px 36px rgba(83, 83, 83, 0.25);
+    border-radius: 50%;
+    padding: 25px 15px;
+    margin: 45px;
+}
+
+/* banner ends*/
+
+/* What we are */
+.what-we-are {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px;
+}
+
+.col-3 {
+    flex: 1;
+}
+
+.row1 img {
+    // width: 313px;
+    padding: 15px;
+    // margin: 0 65px ;
+
+}
+
+.row1 {
+    margin: 65px 0;
+    //  padding: 5px;
+    // border: 1px solid;
+
+}
+
+.row2 img {
+    // width: 313px;
+    padding: 15px;
+}
+
+// .row2 {
+
+// }
+
+.col-3 h4 {
+    margin: 65px 0 0 25px;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    // text-align: center;
+}
+
+.col-3 p {
+    text-align: justify;
+    line-height: 35px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* What we are ends */
+
+/* what we do */
+
+.what-we-do>h4 {
+    font-family: Mulish;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.facilities {
+    border: 1px solid $yellow-shade;
+    border-radius: 25px;
+    flex: 1;
+    margin: 45px 25px 45px 0;
+    padding: 15px;
+}
+
+.facilities>h4 {
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #575757;
+}
+
+.fac-content {
+    display: flex;
+}
+
+.fac-content p {
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 15px;
+    color: #575757;
+}
+
+/* whaat we do ends */
+
+/* talk with us */
+.talk-with-us p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #FAFAFA;
+    background-color: $yellow-shade;
+    padding: 10px;
+    margin: 15px 45%;
+    border-radius: 5px;
+}
+
+/* talk with us end */
+/* our core values */
+.our-core-values {
+    margin: 45px 15px 35px 15px;
+    padding: 15px 0;
+    background: #FAFAFA;
+}
+
+.our-core-values>h4,
+.our-mission>h4 {
+    font-family: Mulish;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+}
+
+.values div>span {
+    font-size: 20px;
+    color: $yellow-shade;
+}
+
+.values div>h5 {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #575757;
+    display: inline;
+    padding-left: 10px;
+}
+
+.values div>p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    // line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* our core values end */
+/* our mission */
+.our-mission{
+    margin: 0 65px;
+}
+.our-mission-fields {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.om-img1,
+.om-img2,
+.om-img3,
+.om-img4 {
+    display: inline-block;
+}
+
+.om-img2 {
+    position: relative;
+    top: 80px;
+    right: 180px;
+}
+
+.text-block {
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    text-align: center;
+}
+
+.text-block>h2 {
+    color: $green-shade;
+    font-family: Mulish;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.text-block>p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.om-img3 {
+    position: relative;
+    // top: 80px;
+    right: 180px;
+}
+
+.om-img4 {
+    position: relative;
+    top: 50px;
+    right: 270px;
+}
+
+.our-mission-texts {
+    flex: 1;
+    padding: 25px;
+}
+.our-mission-texts-data{
+    margin: 45px 0;
+}
+.our-mission-texts-data>h4 {
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $green-shade;
+}
+
+.our-mission-texts-data>p {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+}

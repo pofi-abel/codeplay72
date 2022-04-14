@@ -1,0 +1,255 @@
+/* banner */
+.banner-product {
+    background: linear-gradient(rgba(0, 0, 0, 0.7)), url(../img/Rectangle_252.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 676px;
+    // text-align: center;
+}
+
+.banner-product span,
+h2 {
+    color: #FAFAFA;
+}
+
+.banner-product>span:nth-child(1) {
+    position: absolute;
+    // top: 0;
+    // bottom: 0;
+    left: 1020px;
+    // right: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0px 30px 36px rgba(83, 83, 83, 0.25);
+    border-radius: 50%;
+    padding: 25px 15px;
+    margin: 45px;
+    background: #F29F3C;
+}
+
+.banner-product span:nth-child(2) {
+    position: absolute;
+    right: 71.7%;
+    // right: 17.25%;
+    top: 35%;
+    // bottom: 92.95%;
+    font-weight: 600;
+    font-size: 20px;
+    background: #CEE63F;
+    box-shadow: 0px 30px 36px rgba(83, 83, 83, 0.25);
+    border-radius: 142px;
+    padding: 10px 25px;
+    margin: 45px;
+}
+
+.banner-product h2 {
+    text-align: center;
+    position: absolute;
+    width: 535px;
+    height: 60px;
+    left: 30%;
+    top: 330px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 60px;
+}
+
+.banner-product p {
+    text-align: center;
+    position: absolute;
+    width: 535px;
+    height: 60px;
+    left: 30%;
+    top: 450px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    // line-height: 60px;
+}
+
+.banner-product span:nth-child(3) {
+    position: absolute;
+    // left: 0%;
+    right: 30%;
+    // top: 0%;
+    bottom: -70px;
+    font-weight: 700;
+    font-size: 20px;
+    background: #F29F3C;
+    box-shadow: 0px 30px 36px rgba(83, 83, 83, 0.25);
+    border-radius: 142px;
+    padding: 10px 25px;
+    margin: 45px;
+}
+
+/* banner ends*/
+/* our pilot curriculum */
+.our-p-curriculum {
+    margin: 45px;
+}
+
+.our-p-curriculum>h4 {
+    font-family: Mulish;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #108D15;
+}
+
+.our-p-curriculum>p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #575757;
+}
+
+.our-p-c-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    // column-  gap: 5px;
+    margin: 25px;
+}
+
+.our-p-c-item-data {
+    background: url(./../img/Rectangle_256.png);
+    // padding: 65px;
+    height: 250px;
+}
+
+.our-p-c-item-data div {
+    background: $yellow-shade;
+    position: relative;
+    top: 70%;
+    padding: 25px 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.our-p-c-item-data div h4 {
+    text-align: center;
+    color: $white;
+}
+
+.our-p-c-item-data-last {
+    text-align: center;
+    margin: auto;
+}
+
+.our-p-c-item-data-last button {
+    padding: 10px 35px;
+    font-weight: 600;
+}
+
+/* our pilot curriculum */
+
+/* our products */
+.our-products {
+    margin: 45px;
+}
+
+.our-products>h4 {
+    font-family: Mulish;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #108D15;
+}
+
+.our-products-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.our-p-i-data {
+    // flex: 1;
+    margin: 0 15px;
+}
+
+.our-p-i-data span {
+    color: $yellow-shade;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.our-p-i-data p {
+    color: #575757;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 15px 0 0 0;
+}
+
+/* our products */
+/* recent prograns */
+.recent-programs{
+    margin: 45px;
+}
+.recent-programs>h4 {
+    font-family: Mulish;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #108D15;
+}
+.recent-p-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 45px;
+}
+.r-p-iems-data{
+    display: flex;
+    flex:1;
+    justify-content: space-evenly;
+    position: relative;
+    margin: 15px 0;
+}
+.rp-items-text{
+    position: absolute;
+    bottom: 28px;
+    // left: 10px;
+}
+.recent-p-bottom-items{
+    text-align: center;
+    padding: 25px 0;
+}
+.recent-p-bottom-items h2{
+    color: $gray-dark;
+    font-weight: 700;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+.recent-p-bottom-items h2>span{
+    color: $green-shade;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Mulish';
+}
+.recent-p-bottom-items button{
+    color: $white;
+    margin: 15px 0;
+}
+
+/* recent programs */

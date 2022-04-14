@@ -1,34 +1,50 @@
+// navigation 
 nav {
-  display: grid;
-  grid-template-columns: auto auto;
-  font-size: larger;
-  padding: 15px 15px;
-  align-content: center;
+  margin: 5px 0;
+}
 
-  .left {
-    font-size: 30px;
-    font-weight: 900;
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 10px 0 0 0;
+  margin: 0;
+  background-color: #fff;
+}
 
-    a {
-      color: $green-shade !important;
-      text-decoration: none;
-    }
-  }
+li a {
+  display: block;
+  color: #575757;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
 
-  .right {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: space-around;
-    align-content: center;
-
-    a {
-      color: $gray-light;
-      text-decoration: none;
-      transition-duration: 0.4s;
-
-      &:not(.button):hover {
-        color: lighten($gray-light, 20);
-      }
-    }
+  &:hover {
+      color: $yellow-shade !important;
+      text-decoration: underline;
   }
 }
+
+li.active>a {
+  color: $yellow-shade;
+}
+
+.left-nav {
+  display: flex;
+  padding-left: 45px;
+  align-items: center;
+  flex: 1;
+}
+
+.right-nav {
+  display: flex;
+  padding-right: 100px;
+  flex: 2;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* end navigation */
